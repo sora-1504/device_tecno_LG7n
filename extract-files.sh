@@ -15,7 +15,7 @@ fi
 set -e
 
 export DEVICE=LG7n
-export DEVICE_COMMON=pova4series-common
+export DEVICE_COMMON=mt6789-common
 export VENDOR=tecno
 export VENDOR_COMMON=tecno
 
