@@ -11,6 +11,10 @@ KERNEL_PATH := $(DEVICE_PATH)-kernel
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1640
+TARGET_SCREEN_WIDTH := 720
+
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
