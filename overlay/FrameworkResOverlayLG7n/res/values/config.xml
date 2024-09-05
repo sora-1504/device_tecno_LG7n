@@ -43,4 +43,7 @@
          rates are available from hardware composer. Only has an effect if the value is
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">90</integer>
+
+     <!-- Whether device uses power button fingerprint sensor or not -->
+     <bool name="config_is_powerbutton_fps">true</bool>
 </resources>
