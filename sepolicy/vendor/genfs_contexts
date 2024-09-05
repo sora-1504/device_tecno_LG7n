@@ -1,0 +1,2 @@
+# Wakeup
+genfscon sysfs /devices/platform/soc/1100a000.spi0/spi_master/spi0/spi0.0/omnivision_tcm.0/wakeup                   u:object_r:sysfs_wakeup:s0
