@@ -32,6 +32,10 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator-service.mediatek
+
 # Inherit from the common OEM chipset makefile.
 $(call inherit-product, device/tecno/mt6789-common/common.mk)
 
